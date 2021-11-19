@@ -1,0 +1,88 @@
+
+#prvi {
+    font-family: Arial;
+    text-align: center;
+    background-color:green;
+    color: white;
+    height: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+#o_projektu {
+    font-size: large;
+    font-family: Verdana;
+    color:white;
+    text-align: justify;
+    position:left;
+    left:200px;
+    top: 30px; 
+	height: 250px; 
+	width: 450px; 
+	padding: 1em;
+	background-color:green;
+	z-index: 1;
+    margin-left: 5%;
+    box-shadow: inset;
+
+}
+
+#naslov1 {
+    font-family: Verdana;
+    margin-left:5%;
+  
+}
+
+#naslov2 {
+    font-family: Verdana;
+    margin-left: 30em;
+    
+}
+#motivacija {
+    font-size: large;
+    font-family: Verdana;
+    text-align: justify;
+    color:white;
+    position: absolute; 
+	left: 460px; 
+	top: 220px; 
+	height: 250px; 
+	width: 450px; 
+	padding: 1em;
+	background-color:green;
+	z-index: 2;
+    margin-left: 20em;
+    
+}
+
+#aut {
+    text-align:center;
+    font-family: Verdana;
+}
+#autor1 {
+    font-family: verdana;
+    font-size:large;
+    text-align: justify;
+    z-index: 1;
+    background-color: green;
+    color: white;
+    position:absolute;
+    width:300px;
+    height:250px;
+    padding:1em;
+    margin-left:5%;
+}
+#autor2 {
+    font-size: large;
+    font-family: Verdana;
+    text-align: justify;
+    color:white;
+    position: absolute; 
+	z-index:2;
+    background-color: green;
+    width:300px;
+    height:250px;
+    padding:1em;
+    margin-left:61em;
+}
