@@ -1,77 +1,143 @@
-
+body{
+	background-color:#2F3A2D;
+}
+	
 #prvi {
     font-family: Arial;
     text-align: center;
-    background-color:green;
+    background-color:#005500;
     color: white;
-    height: 5em;
+	font-size:90%;
     padding-top: 1em;
     padding-bottom: 1em;
-    
+	border-radius:20px;
+	width:30%;
+	
 }
+#login{
+	color:white;
+	position:absolute;
+	right:3%;
+	top:2%;
+	width:10%;
+    font-family: Verdana;
+    color:white;
+}
+
+.kartica{
+	font-size: large;
+    font-family: Verdana;
+    color:white;
+	border:2px solid white;
+	border-radius:10px;
+	padding:10px;
+	background-color:#005500;
+}
+
+#kartica1{
+	position:absolute;
+	left:35%;
+	top:3%;
+}
+#kartica2{
+	position:absolute;
+	left:45%;
+	top:3%;
+}
+#kartica3{
+	position:absolute;
+	left:55%;
+	top:3%;
+}
+#kartica4{
+	position:absolute;
+	left:65%;
+	top:3%;
+}
+
 
 #o_projektu {
     font-size: large;
     font-family: Verdana;
     color:white;
-    text-align: justify;
-    position:left;
-    left:200px;
-    top: 30px; 
-	height: 250px; 
-	width: 450px; 
+    text-align: center;
+    position:relative;
+    left:5%; 
+	height:auto; 
+	width:60%; 
 	padding: 1em;
-	background-color:green;
+	background-color:#005500;
 	z-index: 1;
-    margin-left: 5%;
     box-shadow: inset;
+	border-radius:30px;
 
 }
 
 #naslov1 {
     font-family: Verdana;
-    margin-left:5%;
+    margin-left:6%;
+	color:white;
   
 }
 
 #naslov2 {
     font-family: Verdana;
-    margin-left: 30em;
+    margin-left:51%;
+	color:white;
     
 }
 #motivacija {
     font-size: large;
     font-family: Verdana;
-    text-align: justify;
+    text-align: center;
     color:white;
-    position: absolute; 
-	left: 460px; 
-	top: 220px; 
-	height: 250px; 
-	width: 450px; 
+    margin-left:50%;
+	height:auto; 
+	width:35%; 
 	padding: 1em;
-	background-color:green;
+	background-color:#005500;
 	z-index: 2;
-    margin-left: 20em;
+	border-radius:30px;
+}
+#naslov3 {
+    font-family: Verdana;
+    margin-left:6%;
+	color:white;
     
+}
+#tehnologije {
+    font-size: large;
+    font-family: Verdana;
+    text-align: center;
+    color:white;
+    margin-left:5%;
+	height:auto; 
+	width:20%; 
+	padding: 1em;
+	background-color:#005500;
+	z-index: 2;
+	border-radius:30px;
 }
 
 #aut {
     text-align:center;
     font-family: Verdana;
+	color:white;
 }
 #autor1 {
     font-family: verdana;
     font-size:large;
     text-align: justify;
     z-index: 1;
-    background-color: green;
+    background-color:#005500;
     color: white;
     position:absolute;
-    width:300px;
-    height:250px;
+    width:25%;
+    height:25%;
     padding:1em;
     margin-left:5%;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
 }
 #autor2 {
     font-size: large;
@@ -80,9 +146,11 @@
     color:white;
     position: absolute; 
 	z-index:2;
-    background-color: green;
-    width:300px;
-    height:250px;
+    background-color:#005500;
+    width:25%;
+    height:25%;
     padding:1em;
-    margin-left:61em;
+    margin-left:67%;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
 }
