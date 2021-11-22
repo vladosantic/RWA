@@ -1,19 +1,33 @@
 body{
 	background-color: #e5e5f7;
-	background: linear-gradient(135deg, #444cf755 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #444cf7 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #444cf755 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
+	background: linear-gradient(135deg, #68ab65 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #005500 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #68ab65 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #005500 25%, #b0bfbb 25%) 0px 0/ 20px 20px;
 }
 
 #pozdrav{
-	font-size:300%;
-	font-weight:bold;
-	font-family: Verdana;
-	text-align: center;
 	padding:30px;
 	margin-top: 10%;
 	width:50%;
 	margin-left:23%;
-	background-color:#49e683;
-	border-radius:100px 300px;
+	border-radius:50px 300px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	backdrop-filter: blur(2px);
+}
+#pozdrav_text{
+	font-size:300%;
+	font-weight:bold;
+	font-family: Garamond;
+	text-align: center;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
 }
 
 #k_prvi {
@@ -138,6 +152,7 @@ body{
     text-align:center;
     font-family: Verdana;
 	color:black;
+	font-weight:bold;
 }
 #k_treci{
 	display: flex;
@@ -149,9 +164,9 @@ body{
 }
 .k3{
 	font-family: Arial;
-    color: black;
+    color:white;
 	font-weight:bold;
-	background-color:coralgray;
+	background-color:gray;
 	border:0.3px solid black;
 	border-radius:20px;
 	padding:10px;
@@ -172,23 +187,42 @@ body{
 	font-size:150%;
 	padding:10px;
 }
-.prijavise {
-    color: white;
-    font-family: verdana;
-    text-align: center;
-    color: white;
-	background-color:coralgray;
-	border:0.3px solid black;
-	border-radius:20px;
+.wrapper {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+	width:33%;
+	margin:auto;
+	background-color:#005500;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:110%;
+	text-align:center;
+	color:white;
+	border-radius:30px;
 	padding:10px;
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;		
-   
-}
+  }
+  .form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+  }
+  .form-row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+  }
+  .form-row > input {
+    flex: 2;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: .5em;
+  }
+  .form-row > button {
+   background: gray;
+   color: white;
+   border: 0;
+  }
 #registracija {
     color:white;
     text-decoration: none;

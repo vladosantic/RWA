@@ -11,33 +11,52 @@
 <link rel="stylesheet" href="proj.css">
 
 </head>
-
-
-
     <body>
-        <div class="registrirajse"> 
-            <h1>Kreirajte korisnički račun</h1>
-            <br/>
-            <form>
-        Ime: 
-        <input type="text" id="ime" size="40" /><br/><br/>
-        Prezime:
-        <input type="text" id="prezime" size="40"/><br/><br/> 
-        Email: 
-        <input type="text" id="email" size="40"/><br/><br/>
-        Lozinka:
-        <input type="password" id="lozinka" size="40"/><br/><br/>
-        Potvrdi lozinku:    
-        <input type="password" id="potvrdilozinku" size="40"/><br/><br/>    
-        Datum rođenja:
-        <input type="date" id="datum" size="40"/>    
-            <br/>
-            <br/><br/>
-            
-            <input type="checkbox" name="c1" value="C1"/>Slažem se s uvjetima korištenja
-            <br/><br/><br/> 
-            <input type="submit" value="Registriraj se"/><br/><br/><br/>
-                </form>
+	<div id="k_prvi">
+            <div id="ljekarna">Online ljekarna "Sanitas"</div>
+            <div class="kartica"><a href="Projekt.html" id="rubrika1">Početna</a></div>
+            <div class="kartica">Proizvodi</div>
+            <div class="kartica"><a href="O_projektu.html" id="rubrika3" >O projektu</a></div>
+            <div class="kartica">Podrška</div>
+            <div class="kartica"><a href="Prijava.html" id="rubrika5">Prijava</a></div>
+            <div class="kartica"><a href="Registracija.html" id="rubrika6">Registracija</a></div>        
+            </div>
+	<br><hr>
+ <form>
+  <ul class="wrapper">
+    <li class="form-row">
+      <label for="name">Ime</label>
+      <input type="text" id="ime">
+    </li>
+    <li class="form-row">
+      <label for="prezime">Prezime:</label>
+      <input type="text" id="prezime">
+    </li>
+    <li class="form-row">
+      <label for="email">E-Mail:</label>
+      <input type="text" id="email">
+    </li>
+	<li class="form-row">
+      <label for="password">Lozinka:</label>
+      <input type="password" id="password">
+    </li>
+	<li class="form-row">
+      <label for="password">Potvrdi lozinku:</label>
+      <input type="password" id="password">
+    </li>
+	<li class="form-row">
+      <label for="dob">Datim rođenja:</label>
+      <input type="date" id="datum">
+    </li>
+	<li class="form-row">
+		<label for="dob">Slažem se sa uvjetima korištenja.</label>
+		<input type="checkbox" name="C1" value="C1">
+	</li>
+	<li class="form-row">
+      <button type="submit">Registriraj se</button>
+    </li>
+  </ul>
+</form>
         </div>
 
 
