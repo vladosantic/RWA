@@ -1,7 +1,21 @@
 body{
-	background-color:#2F3A2D;
+	background-color: #e5e5f7;
+	background: linear-gradient(135deg, #444cf755 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #444cf7 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #444cf755 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
 }
-	
+
+#pozdrav{
+	font-size:300%;
+	font-weight:bold;
+	font-family: Verdana;
+	text-align: center;
+	padding:30px;
+	margin-top: 10%;
+	width:50%;
+	margin-left:23%;
+	background-color:#49e683;
+	border-radius:100px 300px;
+}
+
 #k_prvi {
     font-family: Arial;
     color: white;
@@ -16,7 +30,7 @@ body{
 	font-family: Arial;
     color: white;
 	background-color:#005500;
-	border-radius:20px;
+	border-radius:20px 60px;
 	text-align:center;
 	font-size:150%;
 	font-weight:bold;
@@ -47,8 +61,8 @@ body{
 	text-align:center;
     color:white;
 	border:1px solid white;
-	border-radius:10px;
-	padding:10px;
+	border-radius:10px 30px;
+	padding:15px;
 	background-color:#005500;
 	display: block;
 	flex-grow: 0;
@@ -58,6 +72,25 @@ body{
 	order: 0;
 }
 
+#rubrika1 {
+    color:white;
+    text-decoration: none;
+   
+}
+#rubrika3 {
+    color: white;
+    text-decoration: none;
+}
+#rubrika5 {
+    color:white;
+    text-decoration: none;
+   
+}
+
+#rubrika6 {
+    color:white;
+    text-decoration: none;
+}
 #k_drugi{
 	display: flex;
 	flex-direction: column;
@@ -78,7 +111,7 @@ body{
 	align-self: auto;
 	order: 0;
 	background-color:#003600;
-	border-radius:20px;
+	border-radius:25px 15px;
 	border: 0.5px solid black;
 	font-weight:bold;
 	padding:10px;
@@ -88,11 +121,11 @@ body{
     font-family: Verdana;
 	text-align:center;
     color:white; 
-	padding:20px;
+	padding:15px;
 	margin-top:1%;
 	margin-bottom:3%;
 	background-color:#005500;
-	border-radius:30px;
+	border-radius:20px 40px;
 	display: block;
 	flex-grow: 0;
 	flex-shrink: 1;
@@ -104,7 +137,7 @@ body{
 #aut {
     text-align:center;
     font-family: Verdana;
-	color:white;
+	color:black;
 }
 #k_treci{
 	display: flex;
@@ -116,7 +149,8 @@ body{
 }
 .k3{
 	font-family: Arial;
-    color: white;
+    color: black;
+	font-weight:bold;
 	background-color:coralgray;
 	border:0.3px solid black;
 	border-radius:20px;
@@ -137,4 +171,45 @@ body{
 	border-radius:10px;
 	font-size:150%;
 	padding:10px;
+}
+.prijavise {
+    color: white;
+    font-family: verdana;
+    text-align: center;
+    color: white;
+	background-color:coralgray;
+	border:0.3px solid black;
+	border-radius:20px;
+	padding:10px;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;		
+   
+}
+#registracija {
+    color:white;
+    text-decoration: none;
+   
+}
+.registrirajse {
+    color: white;
+    font-family: verdana;
+    text-align: center;
+    color: white;
+	background-color:coralgray;
+	border:0.3px solid black;
+	border-radius:20px;
+	padding:10px;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;		
+}
+.prijavise{
+	text-align:center;
 }
