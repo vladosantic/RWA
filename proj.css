@@ -151,16 +151,18 @@ body{
 }
 
 #aut {
-    text-align:center;
-    font-family: Verdana;
-	color:black;
+	font-family: Arial;
+	color:white;
+	font-size:150%;
+	background-color:#003600;
+	border-radius:25px 15px;
+	border: 0.5px solid black;
 	font-weight:bold;
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
+	padding:10px;
+	text-align: center;
+	margin-left: 670px;
+	margin-right: 670px;
+	
 }
 #k_treci{
 	display: flex;
