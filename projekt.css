@@ -1,3 +1,358 @@
+<<<<<<< HEAD
+body{
+	height:100%;
+	background-image:url('pozadina.jpg');
+	background-repeat:repeat;
+	background-size:20%;
+	padding:0;
+	margin:0;
+}
+
+#pozdrav{
+	padding:30px;
+	margin-top: 10%;
+	width:50%;
+	margin-left:23%;
+	border-radius:50px 300px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+}
+#pozdrav_text{
+	font-size:300%;
+	font-weight:bold;
+	font-family:Helvetica, sans-serif;
+	text-align: center;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+#kontenjer{
+	border-bottom:3px solid black;
+	min-width:100%;
+	max-width:100%;
+	min-height:100%;
+	max-height:100%;
+	background-color:white;
+	padding:0;
+	margin:0;
+}
+#glava{
+	padding:20px;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+#trazilica{
+	width: 30%;
+	display:flex;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+.searchTerm {
+  width: 100%;
+  border: 3px solid #1B4965;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  font-family:Helvetica, sans-serif;
+}
+
+.searchButton {
+  width: 95px;
+  height: 36px;
+  font-family:Helvetica, sans-serif;
+  border: 1px solid #1B4965;
+  background: #1B4965;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+#k_prvi {
+	padding:10px;
+    font-family:Helvetica, sans-serif;
+    color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	width:75%;
+	margin:auto;
+}
+#ljekarna{
+	width:145px;
+	height:42px;
+	display: wrap;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+
+#login{
+	color:white;
+    font-family:Helvetica, sans-serif;
+    color:white;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+
+.kartica{
+	font-size:120%;
+    font-family:Helvetica, sans-serif;
+	text-align:center;
+    color:white;
+	border:0.3px solid white;
+	border-radius:40px;
+	padding:8px;
+	background-color:#1B4965;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+.kartica2{
+	font-size:100%;
+    font-family:Helvetica, sans-serif;
+	text-align:center;
+    color:black;
+	text-decoration:none;
+	border:1px solid #1B4965;
+	border-radius:20px;
+	padding:10px;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+.ikone{
+	display:block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+
+#rubrika1 {
+    color:white;
+    text-decoration: none;
+   
+}
+#rubrika3 {
+    color: white;
+    text-decoration: none;
+}
+#rubrika5 {
+    color:white;
+    text-decoration: none;
+   
+}
+
+#rubrika6 {
+    color:white;
+    text-decoration: none;
+}
+#k_drugi{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+#naslov{
+    font-family:Helvetica, sans-serif;
+	color:white;
+	font-size:150%;
+	margin-top:1%;
+	background-color:#1B4965;
+	border-radius:15px;
+	border: 0.5px solid black;
+	font-weight:bold;
+	padding:10px;
+	width:30%;
+}
+.k2{
+	font-size: large;
+    font-family:Helvetica, sans-serif;
+	text-align:center;
+    color:white; 
+	padding:15px;
+	margin-bottom:3%;
+	background-color:#002f38;
+	border-radius:20px;
+	width:50%;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+
+#aut {
+	font-family:Helvetica, sans-serif;
+	color:white;
+	font-size:150%;
+	background-color:#1B4965;
+	border-radius:25px 15px;
+	border: 0.5px solid black;
+	font-weight:bold;
+	padding:10px;
+	text-align: center;
+	margin:auto;
+	width:35%;
+	
+}
+#k_treci{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	
+}
+.k3{
+	font-family:Helvetica, sans-serif;
+    color:white;
+	font-weight:bold;
+	background-color:#002f38;
+	border:0.3px solid black;
+	border-radius:20px;
+	padding:10px;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;		
+	width:35%;
+
+}
+
+#slika_autora{
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	clip-path: circle();
+	
+}
+
+
+.naslov2{
+	font-family:Helvetica, sans-serif;
+	font-weight:bold;
+	background-color:#1B4965;
+	color:white;
+	text-align:center;
+	border-radius:10px;
+	font-size:150%;
+	padding:10px;
+	width:50%;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.wrapper {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+	width:50%;
+	margin:auto;
+	background-color:#1B4965;
+	font-family:Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:110%;
+	text-align:center;
+	color:white;
+	border-radius:30px;
+	padding:10px;
+  }
+  .form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+  }
+  .form-row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+  }
+  .form-row > input {
+    flex: 2;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: .5em;
+  }
+  .form-row > button {
+   background: gray;
+   color: white;
+   border: 0;
+  }
+#registracija {
+    color:white;
+    text-decoration: none;
+   
+}
+.registrirajse {
+    color: white;
+    font-family:Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+	background-color:#1B4965;
+	border:0.3px solid black;
+	border-radius:20px;
+	padding:10px;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;		
+}
+.prijavise{
+	text-align:center;
+}
+#forma{
+	margin-top:3%;
+}
+=======
 body{
 	background-color: #e5e5f7;
 	background: linear-gradient(135deg, #68ab65 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #005500 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #68ab65 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #005500 25%, #b0bfbb 25%) 0px 0/ 20px 20px;
@@ -278,3 +633,4 @@ body{
 .prijavise{
 	text-align:center;
 }
+>>>>>>> c751aba860b5a98aa221d38adced790e86823621
